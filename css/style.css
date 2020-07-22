@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #ededed;
+}
+
+.header .slogan,
+.header .logo,
+.header .contacts {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 30%;
+}
+
+
+.header .logo img {
+	display: inline-block;
+	width: 70%;
+}
+
+
+.nav {
+	background-color: #919191;
+}
+
+
+.nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.nav a {
+	color: #ffffff;
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color:  #5c5c5c;
+}
+
+.main {
+	background-color: #d1b6b6;
+}
+
+.main h1 {
+	color: #732a2a;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.main h2 {
+	padding-bottom: 10px;
+	color: #c24242
+}
+
+.main p {
+	padding-bottom: 20px;
+	text-indent: 1.5em;
+}
+
+.main li{
+	padding-bottom: 20px;
+}
+
+.main .page1_car img{ 
+	width: 70%;
+	padding-left: 120px;
+	padding-bottom: 10px;
+}
+
+.main .page4_checking img{
+	width: 45%;
+	padding-left: 260px;
+	padding-bottom: 10px;
+}
+
+.main .section img{
+	display:inline-block;
+	width:24%;
+}
+
+.main .promo .ad {
+	display: inline-block;
+	text-align: right;
+	padding: 25px;
+	font-size: 15px;
+	width: 210px;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	background-image: url(../images/lex.jpg);
+	background-position: contain;
+	background-repeat: no-repeat;
+	color:#ffb012;
+
+}
+
+.main .new_model{
+	display: inline-block;
+	text-align: right;
+	padding: 25px;
+	font-size: 15px;
+	width: 210px;
+	margin-top: 20px;
+	margin-right: 33px;
+	margin-bottom: 20px;
+	background-image: url(../images/lx.jpg);
+	background-position: contain;
+	background-repeat: no-repeat;
+	color:#03d7fc;
+}
+
+.main .carinfo {
+	display: inline-block;
+	text-align: right;
+	padding: 25px;
+	font-size: 15px;
+	width: 210px; 
+	margin-top: 20px;
+	margin-left: 55px;
+	margin-bottom: 20px;
+	background-image: url(../images/carinfo.jpg);
+	background-position: contain;
+	background-repeat: no-repeat;
+	color:#03d7fc;
+}
+
+.main a:hover{
+	color: green;
+}
+
+.color {
+	color: red;
+	background-color: white;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.footer {
+	background: #5c5c5c;
+	padding: 20px 0;
+	color: #ededed;
+	text-align: center;
+}
+
+.footer .pic img {
+	width: 25%;
+	margin-top: 15px;
+}
+
+.footer .logo,
+.footer .info,
+.footer .contacts {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 33%;
+    text-align: center;
+}
